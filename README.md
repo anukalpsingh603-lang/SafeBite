@@ -95,18 +95,16 @@ For a real deployment, store evidence provenance, source URL, verifier identity,
 
 ```text
 SafeBite/
+├── package.json
+├── index.html
+├── .env.example
 ├── src/
 │   ├── App.jsx
 │   ├── main.jsx
 │   ├── supabase.js
 │   └── style.css
-├── supabase/
-│   └── schema.sql
-├── .env.example
-├── .gitignore
-├── index.html
-├── package.json
-└── README.md
+└── supabase/
+    └── schema.sql
 ```
 
 ## License
